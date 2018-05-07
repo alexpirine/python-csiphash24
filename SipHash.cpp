@@ -4,7 +4,7 @@
 
 #ifdef __APPLE__
 namespace std {
-#include <stdint.h>
+#include <libc.h>
 }
 #else
 #include <cstdint>

@@ -10,4 +10,6 @@ ffibuilder = FFI()
 ffibuilder.cdef('''uint64_t siphash24(const void *src, unsigned long src_sz, const char key[16]);''')
 siphash_source = open(siphash_source_file)
 ffibuilder.set_source('csiphash24._siphash', siphash_source.read(), source_extension='.cpp')
-ffibuilder.compile(verbose=True)
+
+if __name__ == "__main__":
+    ffibuilder.compile(verbose=True)
