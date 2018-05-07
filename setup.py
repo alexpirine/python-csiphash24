@@ -20,6 +20,7 @@ if __name__ == '__main__':
         author_email='alex@pirine.fr',
         description='A CFFI-based implementation of SipHash24',
         long_description=readme,
+        long_description_content_type='text/markdown',
         packages=find_packages(exclude=['test']),
         python_requires='>=3.6',
         setup_requires=["cffi>=1.4.0"],
