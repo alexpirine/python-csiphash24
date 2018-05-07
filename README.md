@@ -1,3 +1,6 @@
+
+[![PyPI](https://img.shields.io/pypi/v/csiphash24.svg)](https://pypi.python.org/pypi/csiphash24)
+
 # python-csiphash24
 
 SipHash-2-4 implementation, CFFI-wrapped for Python.
