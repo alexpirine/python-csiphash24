@@ -4,7 +4,7 @@ SipHash-2-4 implementation, CFFI-wrapped for Python
 
 Works with Python ≥ 3.6.
 
-Inspired by https://github.com/majek/csiphash
+Inspired by https://github.com/majek/csiphash and https://github.com/zacharyvoase/python-csiphash
 
 ## Usage
 
