@@ -9,5 +9,5 @@ siphash_source_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), '
 ffibuilder = FFI()
 ffibuilder.cdef('''uint64_t siphash24(const void *src, unsigned long src_sz, const char key[16]);''')
 siphash_source = open(siphash_source_file)
-ffibuilder.set_source('siphash._siphash', siphash_source.read(), source_extension='.cpp')
+ffibuilder.set_source('csiphash24._siphash', siphash_source.read(), source_extension='.cpp')
 ffibuilder.compile(verbose=True)
