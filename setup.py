@@ -13,7 +13,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 if __name__ == '__main__':
     setup(
         name='csiphash24',
-        version='1.0.0',
+        version='1.0.4',
         url='https://github.com/alexpirine/python-csiphash24',
         license='MIT',
         author='Alexandre Syenchuk',
