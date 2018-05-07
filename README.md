@@ -1,10 +1,10 @@
 # python-csiphash24
 
-SipHash-2-4 implementation, CFFI-wrapped for Python
+SipHash-2-4 implementation, CFFI-wrapped for Python.
 
-Works with Python ≥ 3.6
+It just works. If you have Python ≥ 3.6.
 
-Inspired by https://github.com/majek/csiphash and https://github.com/zacharyvoase/python-csiphash
+Inspired by https://github.com/majek/csiphash and https://github.com/zacharyvoase/python-csiphash.
 
 ## How to install
 
