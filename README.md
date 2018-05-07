@@ -20,3 +20,6 @@ $ pip install csiphash24
 >>> hexlify(siphash24(b'0123456789abcdef', b'hello'))
 b'95a3a242a9dd85d1'
 ```
+## Is it fast
+
+On my late-2017 MacBook Pro, hashing a 256-bytes message takes less than a microsecond on average (about 780 nanoseconds to be precise).
