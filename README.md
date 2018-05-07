@@ -27,3 +27,7 @@ b'95a3a242a9dd85d1'
 ## Is it fast ?
 
 On my late-2016 MacBook Pro, hashing a 256-bytes message takes less than a microsecond on average (about 780 nanoseconds to be precise).
+
+## What implementaiton is this?
+
+To be honest, I'm not sure. I tried several implementations and they weren't compatible with the device I was working with. This one seems to do the job. So, it might work for you too.
