@@ -6,7 +6,13 @@ Works with Python ≥ 3.6
 
 Inspired by https://github.com/majek/csiphash and https://github.com/zacharyvoase/python-csiphash
 
-## Usage
+## How to install
+
+```console
+$ pip install csiphash24
+```
+
+## How to use
 
 ```python
 >>> from binascii import hexlify
